@@ -4,8 +4,8 @@ require 'vendor/autoload.php';
 use Moip\Moip;
 use Moip\Auth\BasicAuth;
 
-$token = 'WBUCZQGPPOESQAOREUNNSAS9E6TDAY07';
-$key = 'XVLHNLIFRB9XK6VR6HRO1PMIPW6DWWUCOXFF8EAT';
+$token = '01010101010101010101010101010101';
+$key = 'ABABABABABABABABABABABABABABABABABABABAB';
 
 $moip = new Moip(new BasicAuth($token, $key), Moip::ENDPOINT_SANDBOX);
 /* CRIANDO O COMPRADOR */
